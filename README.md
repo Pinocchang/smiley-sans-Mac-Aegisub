@@ -1,11 +1,14 @@
 ## 解决了得意黑英文字在Mac上的显示问题，特别是视频播放器中的显示问题
 
-在我的使用中发现
-原版的得意黑字体由于PS Names和TTF Names中有些参数名称有问题，于是使用FontForge做了些修改
-PSname中的Full name 和 Family name 都修改为了Smiley Sans
-TTFname中的Full name 和 Family name 都修改为了Smiley Sans
+在我的使用中发现 原版的得意黑字体由于PS Names和TTF Names中有些参数名称有问题 于是使用FontForge做了些修改
+
+PS Names中的Fontname修改为SmileySans；Family Name和Name For Humans修改为了Smiley Sans；
+
+TTF Names中的Familyname和Fullname修改为了Smiley Sans，UniqueID修改成了2.0.1;UKWN;SmileySans；中文的Familyname和Fullname修改为得意黑；中文的Preferred Family改为Smiley Sans，Preferred Style改为Oblique。
 
 现在应该可以正常在Aegisub和播放器里正常显示出中英文了
+
+PS: 我的电脑系统语言是英文，所以并不知道中文系统下会不会失效，没做测试。Win暂时没测试。
 
 ---
 
